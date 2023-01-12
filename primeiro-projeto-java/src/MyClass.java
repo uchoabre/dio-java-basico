@@ -1,7 +1,14 @@
 public class MyClass {
     public static void main(String[] args) {
-        String meuNome = "Brendo";
-        int idade = 21;
-        System.out.print("Olá, meu nome é " + meuNome + " e tenho " + idade + " anos");
+        String primeiroNome = "Brendo";
+        String sobrenome = "Uchôa";
+
+        String nomeCompleto = nomeCompleto(primeiroNome, sobrenome);
+
+        System.out.print(nomeCompleto);
+    }
+
+    public static String nomeCompleto(String primeiroNome, String sobrenome) {
+        return "Meu nome é: " + primeiroNome.concat(" ").concat(sobrenome);
     }
 }

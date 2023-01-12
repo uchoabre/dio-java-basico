@@ -1,3 +1,5 @@
+package edu.brendo.segundodia;
+
 public class BoletimEstudantil {
     public static void main(String[] args) {
         int mediaFinal = 9;
